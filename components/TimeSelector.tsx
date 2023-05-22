@@ -51,8 +51,7 @@ const TimeSelector = ({
               onTimeChange(selectedTime || time.toDate());
             }}
             style={{
-              width: 65,
-              borderRadius: 50,
+              width: responsiveWidth(90),
               marginLeft: responsiveWidth(20),
             }}
           />
